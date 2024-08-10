@@ -39,7 +39,7 @@
         <div class="nav-menu" id="myNavMenu">
           <ul class="nav_menu_list">
             <li class="nav_list">
-              <a href="#home" class="nav-link">Home</a>
+              <a href="#home" class="nav-link active-link">Home</a>
               <div class="circle"></div>
             </li>
             <li class="nav_list">
@@ -57,7 +57,7 @@
           </ul>
         </div>
         <div class="nav-button">
-          <button class="btn">
+          <button class="btn downloadCVBtn">
             Download CV <i class="uil uil-file-alt"></i>
           </button>
         </div>
@@ -75,19 +75,19 @@
               <span>Ryan Yanuar Pradana</span>
             </div>
             <div class="featured-name">
-              <p>I'm <span class="typedText">Programmer</span></p>
+              <p>I'm <span class="typedText"></span></p>
             </div>
             <div class="featured-text-info">
-              <p>"Experienced in web development with passion for data science, blending technical skills with data-driven insights for innovative solutions."</p>
+              <p>"Experienced in web development and UI/UX design with passion for data science, blending technical skills with data-driven insights for innovative solutions."</p>
             </div>
             <div class="featured-text-btn">
-              <button class="btn blue-btn">Hire Me</button>
-              <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+              <!-- <button class="btn blue-btn">Hire Me</button> -->
+              <button class="btn downloadCVBtn">Download CV <i class="uil uil-file-alt"></i></button>
             </div>
             <div class="social_icons">
-              <div class="icon"> <i class="uil uil-github"></i> </div>
-              <div class="icon"> <i class="uil uil-instagram"></i> </div>
-              <div class="icon"> <i class="uil uil-linkedin-alt"></i> </div>
+              <a href="https://github.com/Rynr615" class="icon" target="_blank"> <i class="uil uil-github"></i> </a>
+              <a href="https://www.instagram.com/ryn_ynr" class="icon" target="_blank"> <i class="uil uil-instagram"></i> </a>
+              <a href="https://www.linkedin.com/in/ryan-yanuar-pradana-672363270/" target="_blank" class="icon"> <i class="uil uil-linkedin-alt"></i> </a>
             </div>
           </div>
           <div class="featured-image">
@@ -121,7 +121,7 @@
                     I am capable of designing UI/UX.
                   </p>
                   <div class="about-btn">
-                    <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    <button class="btn downloadCVBtn">Download CV <i class="uil uil-import"></i></button>
                   </div>
                 </div>
               </div>
@@ -134,7 +134,7 @@
                   <div class="skills-list">
                     <span><i class="uil uil-html5" style="padding-right: 5px;"></i>HTML5</span>
                     <span><i class="uil uil-css3-simple" style="padding-right: 5px;"></i>CSS3</span>
-                    <span><i class="uil uil-java-script"></i>JavaScript</span>
+                    <span><i class="uil uil-java-script"></i>JS</span>
                     <span><img src="./assets/images/tailwind.svg" class="svg-filter" style="height: 10px;margin: auto 0; padding-right: 5px;" alt="">Tailwind</span>
                     <span><i class="fa-brands fa-bootstrap" style="padding-right: 5px;"></i>Bootstrap</span>                   
                   </div>
@@ -147,7 +147,7 @@
                   <div class="skills-list">
                     <span><i class="fab fa-python" style="padding-right: 5px;"></i>Python</span>
                     <span><i class="fa-brands fa-php" style="padding-right: 5px;"></i>PHP</span>              
-                    <span><i class="uil uil-java-script" style="padding-right: 5px;"></i>JavaScript</span>
+                    <span><i class="uil uil-java-script" style="padding-right: 5px;"></i>JS</span>
                     <span><img src="./assets/images/django.svg" class="svg-filter" style="height: 10px;margin: auto 0; padding-right: 5px;" alt="">Django</span>
                   </div>
                 </div>
@@ -165,9 +165,94 @@
             </div>
          </section>
 
+         <!-- projects -->
+          <section class="section" id="projects">
+            <div class="top-header">
+              <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+              <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Completed</h3>
+                <label for="">13+ Finished Projects</label>
+              </div>
+              <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clients</h3>
+                <label for="">20+ Happy Clients</label>
+              </div>
+              <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experience</h3>
+                <label for="">3+ Years of Experience</label>
+              </div>
+            </div>
+          </section>
+
+          <!-- contact -->
+           <section class="section" id="contact">
+            <div class="top-header">
+              <h1>Get in touch</h1>
+              <span>Do you have a project in your computer? You can contact me here!</span>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="contact-info">
+                  <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope"></i> Email : ryanyanuarpradana@gmail.com</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-control">
+                  <div class="form-inputs">
+                    <input type="text" name="" id="" class="input-field" placeholder="Name">
+                    <input type="email" name="" id="" class="input-field" placeholder="Email">
+                  </div>
+                  <div class="text-area">
+                    <textarea name="" id="" placeholder="Message"></textarea>
+                  </div>
+                  <div class="form-button">
+                    <button class="btn">
+                      Send <i class="uil uil-message"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+
       </main>
 
       <!-- FOOTER -->
+       <footer>
+        <div class="top-footer">
+          Ryan
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <a href="https://github.com/Rynr615" class="icon" target="_blank"> <i class="uil uil-github"></i> </a>
+          <a href="https://www.instagram.com/ryn_ynr" class="icon" target="_blank"> <i class="uil uil-instagram"></i> </a>
+          <a href="https://www.linkedin.com/in/ryan-yanuar-pradana-672363270/" target="_blank" class="icon"> <i class="uil uil-linkedin-alt"></i> </a>
+        </div>
+        <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ryan Yanuar Pradana - All right deserved</a></p>
+        </div>
+       </footer>
     </div>
 
     <!-- TYPING JS -->
