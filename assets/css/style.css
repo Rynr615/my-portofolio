@@ -164,6 +164,8 @@ nav {
 
 .wrapper {
     padding-inline: 10vw;
+    overflow: hidden;
+    width: 100%;
 }
 
 .featured-box {
